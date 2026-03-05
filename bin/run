@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative "../lib/custom_enumerables"
+
+p [1,2,3].my_map { |n| n * 2 } # => [2,4,6]
